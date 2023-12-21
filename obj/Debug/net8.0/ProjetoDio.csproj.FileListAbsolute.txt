@@ -12,3 +12,4 @@ C:\Users\Cliente\Desktop\Projetos\ProjetoDio\obj\Debug\net8.0\refint\ProjetoDio.
 C:\Users\Cliente\Desktop\Projetos\ProjetoDio\obj\Debug\net8.0\ProjetoDio.pdb
 C:\Users\Cliente\Desktop\Projetos\ProjetoDio\obj\Debug\net8.0\ProjetoDio.genruntimeconfig.cache
 C:\Users\Cliente\Desktop\Projetos\ProjetoDio\obj\Debug\net8.0\ref\ProjetoDio.dll
+C:\Users\Cliente\Desktop\Projetos\ProjetoDio\obj\Debug\net8.0\ProjetoDio.sourcelink.json
