@@ -1,8 +1,27 @@
 ﻿using ProjetoDio.Models;
 
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+// int a = Convert.ToInt32("5");
+
+int a = int.Parse("5");
+
+Console.WriteLine(a);
+
+
+
+// int a = 10;
+// int b = 20;
+
+// int c = a + b;
+
+// c += 5;
+
+//Console.WriteLine(c);
+
+
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 // string apresentacao = "Olá, seja bem vindo";
