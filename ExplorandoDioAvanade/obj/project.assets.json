@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\Projetos\\ExplorandoDioAvanade\\ExplorandoDioAvanade.csproj",
+      "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoDioAvanade\\ExplorandoDioAvanade.csproj",
       "projectName": "ExplorandoDioAvanade",
-      "projectPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ExplorandoDioAvanade\\ExplorandoDioAvanade.csproj",
+      "projectPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoDioAvanade\\ExplorandoDioAvanade.csproj",
       "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ExplorandoDioAvanade\\obj\\",
+      "outputPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoDioAvanade\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config"
