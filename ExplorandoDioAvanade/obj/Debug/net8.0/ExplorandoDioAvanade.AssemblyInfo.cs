@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExplorandoDioAvanade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc4fa3af81b61c9a3028f5ed3a0aaf78539ccaed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+295f0aacf435f07c32141013c7f0439b93f7f3e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExplorandoDioAvanade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExplorandoDioAvanade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
