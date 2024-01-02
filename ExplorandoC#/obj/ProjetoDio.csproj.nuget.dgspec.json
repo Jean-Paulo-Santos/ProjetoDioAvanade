@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ProjetoDio.csproj": {}
+    "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\ProjetoDio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ProjetoDio.csproj": {
+    "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\ProjetoDio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ProjetoDio.csproj",
+        "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\ProjetoDio.csproj",
         "projectName": "ProjetoDio",
-        "projectPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ProjetoDio.csproj",
+        "projectPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\ProjetoDio.csproj",
         "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\obj\\",
+        "outputPath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config"
