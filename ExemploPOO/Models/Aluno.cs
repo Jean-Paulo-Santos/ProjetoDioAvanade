@@ -7,6 +7,15 @@ namespace ExemploPOO.Models
 {
     public class Aluno : Pessoa
     {
+        public Aluno()
+        {
+            
+        }
+
+        public Aluno(string nome) : base(nome)
+        {
+        }
+
         public double nota { get; set; }
 
         public override void Apresentar()
