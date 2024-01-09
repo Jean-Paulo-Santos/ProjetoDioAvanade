@@ -1,24 +1,233 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Security.Cryptography.X509Certificates;
-using ProjetoDioAvanade.Models;
+﻿using ExplorandoC.Models;
+using Newtonsoft.Json;
 
-List<string> listaString = new List<string>();
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RJ");
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
+                      $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
 
 
-Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("SC");
 
-Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("MG");
 
-Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+// Venda v2 = new Venda(2, "Licença de Software", 110.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+// Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 20;
+// bool ehPar = false;
+
+// // IF Ternário
+// ehPar = numero % 2 == 0;
+
+// Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+
+
+
+
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é impar");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Jean", "Paulo");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+// if (sucesso)
+// {
+//     //Console.WriteLine("Quantidade linhas do arquivo:" + QuantidadeLinhas);
+//     foreach(string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }    
+//     else
+//     {
+//         Console.WriteLine("Não foi possivel ler o arquivo");
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// (int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Jean", "Paulo", 10.5m);
+// // ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Jean", "Paulo", 1.80m);
+
+// Console.WriteLine($"id: {tupla.Id}");
+// Console.WriteLine($"Nome: {tupla.Nome}");
+// Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+// Console.WriteLine($"Altura: {tupla.Altura}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+
+
+// Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("MG");
+
+// Console.WriteLine($"Percorrendo a lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 // for(int contador = 0; contador < listaString.Count; contador++)
 // {

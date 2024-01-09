@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wPhQhkVMGtikaW88h77WaMsQYLR4BPcnp/xfG+nbX02OW85L6FlRF7hSJ3qFIZ164s8rvswb5+TGD75j0hXSQQ==",
+  "dgSpecHash": "STR40L2flq/yrGaLx4tPDaZWo5OVO1FfJDD6mjI6q2JgAvZmPU5vzrja/5IF2v2vX/1OqkK1KZVXgWaIOhF1Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cliente\\Desktop\\Projetos\\ProjetoDioAvanade\\ExplorandoC#\\ProjetoDio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Cliente\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

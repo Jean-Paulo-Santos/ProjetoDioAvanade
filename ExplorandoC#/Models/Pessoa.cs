@@ -3,16 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProjetoDio.Models
-{
-    public class Pessoa
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
+// namespace ExplorandoC.Models
+// {
+//     public class Pessoa
+//     {
+//         public Pessoa()
+//         {
 
-        public void Apresentar()
-        {
-            Console.WriteLine($"Olá, meu nome é {Name}, e tenho {Age} anos");
-        }
-    }
-}
+//         }
+
+//         public Pessoa(string nome, string sobrenome)
+//         {
+//             Nome = nome;
+//             Sobrenome = sobrenome;
+//         }
+
+//         public void Deconstruct(out string nome, out string sobrenome)
+//         {
+//             nome = Nome;
+//             sobrenome = Sobrenome;
+//         }
+//     }
+// }
